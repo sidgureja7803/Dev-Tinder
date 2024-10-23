@@ -4,13 +4,11 @@
   "description": "tinder for devs",
   "main": "index.js",
   "scripts": {
-    "start": "node src/app.js",
-    "dev": "nodemon src/app.js"
+    "start": "node backend/src/app.js",
+    "dev": "nodemon backend/src/app.js",
+    "build": "echo 'No build step needed'"
   },
-  "keywords": [
-    "nodejs",
-    "javascript"
-  ],
+  "keywords": ["nodejs", "javascript"],
   "author": "Siddhant Gureja",
   "license": "ISC",
   "dependencies": {
