@@ -49,24 +49,23 @@ cd ../backend
 npm start
 ```
 
-##How it Works
+## How it Works
 
-##Authentication:
+## Authentication:
 Users can sign up and log in.
 Token-based authentication (JWT) is implemented. If a user is not logged in, they are redirected to the login page.
 
 
-##Profile Management:
+## Profile Management:
 After login, users can view and edit their profiles.
 Changes are confirmed with a toast message upon saving.
 
 
-##Feed:
+## Feed:
 A feed displays other developers in a card format, where users can accept or reject connection requests.
 The feed is managed by Redux, and new data is fetched from the backend.
 
-
-##Connections:
+## Connections:
 Users can view their connections and connection requests on separate pages.
 Users can accept or reject connection requests from the "Connection Requests" page.
 
