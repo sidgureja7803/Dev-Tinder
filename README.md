@@ -69,7 +69,7 @@ The feed is managed by Redux, and new data is fetched from the backend.
 Users can view their connections and connection requests on separate pages.
 Users can accept or reject connection requests from the "Connection Requests" page.
 
-##State Management:
+## State Management:
 Redux is used for managing authentication, feed, and profile states.
 React Router DOM is used for navigation and protected routes.
 
