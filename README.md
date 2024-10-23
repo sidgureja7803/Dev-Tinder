@@ -75,19 +75,19 @@ React Router DOM is used for navigation and protected routes.
 
 ## Technologies Used
 **Frontend:**
-Vite + React
-Tailwind CSS for styling
-Daisy UI for UI components
-React Router DOM for navigation
-Axios for API calls
-Redux Toolkit for state management
+- Vite + React
+- Tailwind CSS for styling
+- Daisy UI for UI components
+- React Router DOM for navigation
+- Axios for API calls
+- Redux Toolkit for state management
 
 **Backend:**
-Node.js
-Express.js
-MongoDB with Mongoose for the database
-JWT for authentication
-CORS for cross-origin resource sharing
+- Node.js
+- Express.js
+- MongoDB with Mongoose for the database
+- JWT for authentication
+- CORS for cross-origin resource sharing
 
 **E2E Testing:**
 Cypress
