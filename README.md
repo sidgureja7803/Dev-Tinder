@@ -73,4 +73,43 @@ Users can accept or reject connection requests from the "Connection Requests" pa
 Redux is used for managing authentication, feed, and profile states.
 React Router DOM is used for navigation and protected routes.
 
+## Technologies Used
+**Frontend:**
+Vite + React
+Tailwind CSS for styling
+Daisy UI for UI components
+React Router DOM for navigation
+Axios for API calls
+Redux Toolkit for state management
 
+**Backend:**
+Node.js
+Express.js
+MongoDB with Mongoose for the database
+JWT for authentication
+CORS for cross-origin resource sharing
+
+**E2E Testing:**
+Cypress
+
+## Contributing
+
+1- Fork the repository.
+
+2 - Create a new feature branch:
+```bash
+Copy code
+git checkout -b feature-name
+```
+
+3 - Commit your changes:
+```bash
+Copy code
+git commit -m "Add a meaningful commit message"
+```
+4 - Push to the branch:
+```bash
+Copy code
+git push origin feature-name
+```
+5 - Create a Pull Request.
