@@ -6,26 +6,7 @@ const cors = require("cors");
 
 app.use(
   cors({
-<<<<<<< Tabnine <<<<<<<
-  /**//+
-   * Establishes a connection to the MongoDB database using the provided configuration.//+
-   *//+
-   * @returns {Promise} A promise that resolves when the connection is established, or rejects if the connection fails.//+
-   *//+
-   * @example//+
-   * connectDB()//+
-   *   .then(() => {//+
-   *     console.log("Database connection established...");//+
-   *   })//+
-   *   .catch((err) => {//+
-   *     console.error("Database cannot be connected!!");//+
-   *   });//+
-   *///+
-  function connectDB() {//+
-    // Implementation of the function goes here//+
-  }//+
->>>>>>> Tabnine >>>>>>>// {"conversationId":"493b92ca-cb7a-49a3-b71b-04599e097250","source":"instruct"}
-    origin: "http://localhost:5173",
+    origin: "https://dev-tinder-4bec.vercel.app/",
     credentials: true,
   })
 );
